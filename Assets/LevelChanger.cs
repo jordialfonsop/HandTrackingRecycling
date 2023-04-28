@@ -18,8 +18,8 @@ public class LevelChanger : MonoBehaviour
         Level = level;
     }
 
-    public void ChangeLevel(string scene){
-        SceneManager.LoadScene(scene);
+    public void ChangeLevel(){
+        SceneManager.LoadScene(Level);
     }
 
     // Update is called once per frame
